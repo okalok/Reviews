@@ -1,0 +1,74 @@
+*{          
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(225, 228, 228);
+}
+h1{
+    position: fixed;
+    top: 22%;
+    left: 40%;
+    text-transform: capitalize;
+    font-size: 40px;
+    letter-spacing: 8px;
+    color: rgb(237, 152, 42);
+    text-shadow: 5px 5px 25px rgb(145, 144, 143);
+}
+#content{
+    height: 430px;
+    width: 600px;
+    background: rgb(248, 245, 245);
+    border-radius: 8px;
+    position: fixed;
+    top: 35%;
+    left: 35%;
+    box-shadow: 3px 3px 22px 5px rgb(175, 197, 197);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+    justify-content: center;
+    padding: 15px;
+}
+.img{
+    height: 150px;
+    width: 150px;
+    background: transparent;
+    border-radius: 50%;
+    
+    box-shadow: 12px -3px 1px 3px blue;
+}
+.img img{
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+}
+.bio p{
+    min-height: 14vh;
+}
+.button button{
+    height:32px;
+    width: 5vw;
+    letter-spacing: 2px;
+    padding: 3px;
+    border-style: none;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: capitalize;
+    
+}
+button{
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+}
+div,p{
+    background-color: transparent;
+}
+#jenifer{
+    display: none;
+}
+#lisa{
+    display: none;
+}
