@@ -7,6 +7,7 @@ var designation_arr=["Teacher","Photographer","web developer"];
 var bio_lisa=document.getElementById("lisa");
 var bio_jenifer=document.getElementById("jenifer");
 var bio_alison=document.getElementById("alison");
+var bio_display=document.getElementById("display");
 var bio_arr=[bio_lisa,bio_jenifer,bio_alison];
 var i=0;
 function chn_img(){
@@ -14,7 +15,7 @@ function chn_img(){
     img.src=img_arr[i];
     Name.innerHTML=Name_arr[i];
     designation.innerHTML=designation_arr[i];
-    bio_alison.innerHTML=bio_arr[i].innerHTML;
+    bio_display.innerHTML=bio_arr[i].innerHTML;
     window.i=i+1;
     if(window.i>2){
         window.i=0;
